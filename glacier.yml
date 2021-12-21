@@ -1,0 +1,11 @@
+# Glacier Config
+name: "Glacier Example"
+source_directory: "./src"
+destination_directory: "./dist"
+base_directory: "./static"
+description: "My new Glacier project"
+
+destination_files:
+  exclude:
+    - "postcss.config.js"
+    - "tailwind.config.js"
